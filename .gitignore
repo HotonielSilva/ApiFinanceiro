@@ -389,6 +389,12 @@ FodyWeavers.xsd
 
 /.vs
 
-#folders
-CorisApi-Financeiro/Arquivos/Temporarios/
-/CorisApi-Financeiro/appsettings.json
+# Ignorar configurações da IDE (Rider e VS)
+.idea/
+.vs/
+*.user
+
+# Ignorar arquivos de configuração com senhas
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.*.json
